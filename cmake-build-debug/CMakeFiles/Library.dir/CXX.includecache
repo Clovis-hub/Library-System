@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stpaul6tech/CLionProjects/Library/Book.h
+set
+-
+map
+-
+list
+-
+fstream
+-
+string
+-
+iostream
+-
+
+/home/stpaul6tech/CLionProjects/Library/Customer.h
+Book.h
+/home/stpaul6tech/CLionProjects/Library/Book.h
+
+/home/stpaul6tech/CLionProjects/Library/Library.cpp
+Library.h
+/home/stpaul6tech/CLionProjects/Library/Library.h
+
+/home/stpaul6tech/CLionProjects/Library/Library.h
+Book.h
+/home/stpaul6tech/CLionProjects/Library/Book.h
+Customer.h
+/home/stpaul6tech/CLionProjects/Library/Customer.h
+algorithm
+-
+
